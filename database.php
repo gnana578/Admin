@@ -1,7 +1,7 @@
 <?php session_start();
 $host="localhost";
 $user="root";
-$pass="";
+$pass="admin#1";
 //connection
 $con=mysqli_connect($host,$user,$pass) or die(mysqli_error($con));
 //db selection
