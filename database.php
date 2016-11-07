@@ -1,7 +1,7 @@
 <?php session_start();
 $host="localhost";
 $user="root";
-$pass="admin#1";
+$pass="admin#1"; //Change password here 
 //connection
 $con=mysqli_connect($host,$user,$pass) or die(mysqli_error($con));
 //db selection
